@@ -76,8 +76,12 @@ audio{
        height: 11.8em;
     }
     .text-body{
-        margin: 10px;
+        margin: 17px;
         font-size: 15px;
     }
- 
+}
+@media screen and (max-width: 1050px){
+    .text-body{
+        margin: 17px;
+    }
 }
