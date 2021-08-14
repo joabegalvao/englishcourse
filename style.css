@@ -15,12 +15,6 @@
     width: 100vw;
     height: 100vh;
 }
-
-#nav{
-    position: sticky;
-    top: 0;
-}
-
 .nav-bar{
     display: flex;
     justify-content: center;
@@ -46,6 +40,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 3em;
+    background-color: rgb(18, 18, 20);
+    
 }
 .cards:hover{
     margin: 0.8em;
@@ -62,8 +58,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(32, 32, 36);
-    
+    background-color: rgb(32, 32, 36); 
 }
 .img-cards img{
     position: relative;
@@ -98,4 +93,33 @@ button:hover{
     background-color: rgb(85, 84, 84);
     transition: all ease 0.2s;
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 812px){
+
+    .nav-bar{
+        font-size: 13px;
+    }
+    .introducing-text{
+        font-size: 20px;
+        margin-top: 2em;
+    }
+    #cards{
+        margin-top: 2em;
+        background-color: rgb(18, 18, 20);
+    }
+    .cards{
+        margin: 1.3em;
+        padding: 1em 2em;
+    }
+    .img-cards{
+        width: 250px;
+        height: 170px;
+        margin-top: 13px;
+        margin-bottom: 13px;
+    }
+    .cards h1{
+        font-size: 15px;
+    }
 }
